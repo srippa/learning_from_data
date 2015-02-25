@@ -1,8 +1,87 @@
 <style>
-div.warn {    
+
+/* Body of all markdown cells */
+#notebook_panel { 
+    background: #fff;
+    color: #f6f6f6;
+    font-family : "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* More space between bullet points */
+#notebook li { 
+` margin-top:0.8em;
+}
+
+
+/* draw border around running cells */
+div.cell.border-box-sizing.code_cell.running {
+    border: 3px solid #111;
+}
+
+/* Put a solid color box around each cell and its output, visually linking them together */
+div.cell.code_cell {
+    background-color: rgba(171,165,131,0.3); 
+    border-radius: 10px; /* rounded borders */
+    padding: 1em;
+    margin-top: 1em;
+}
+
+
+h1 {
+	color : rgb(12,85,97);
+	font-family : times;
+}
+
+h2 {
+	color : #996633;
+	font-family : times;
+}
+
+h3, h4, h5, h6 {
+	color : #330000;
+	font-family : times;
+}
+
+a {
+	color : blue;
+}
+
+
+p {
+	font-color : black;
+	margin-left: 2px;
+}
+
+
+.contents a {
+	color : black;
+}
+
+.best_practice {    
+    background-color: #CDFECD;
+    border-color: red;
+    border-left: 5px solid #33FF66;
+    padding: 0.5em;
+   }
+ 
+
+.warn {    
     background-color: #fcf2f2;
     border-color: #dFb5b4;
     border-left: 5px solid #dfb5b4;
     padding: 0.5em;
-    }
+   }
+ 
+ .note {
+ color: #333;
+ border: 2px dashed #BD8110;
+ background-color: #FBF8A9;
+ margin-top: 25px;
+ margin-bottom: 35px;
+ padding: 20px;
+}
+.note strong {
+  color: #FC6512;
+}
+
  </style>
